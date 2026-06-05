@@ -1,3 +1,8 @@
+> **Note:** This is a read-only documentation mirror for **Loomflow**.
+> The full source code and active development happen in a private repository.
+
+---
+
 # 🎨 LoomFlow
 
 **Turn any photo into beautiful, organic brush strokes.**
@@ -99,4 +104,4 @@ cmake --build . --parallel
 
 ### Alternative: Older Precompiled OpenCV
 
-We support OpenCV ≥ 4.5. If you're using an older prebuilt, point CMake at it with `-DOpenCV_DIR=...`. See the Documentation section below for more details.
+We support OpenCV ≥ 4.5. If you're using an older prebuilt, point CMake at it with `-DOpenCV_DIR=...`.
