@@ -134,6 +134,17 @@ Depth maps are generated **externally** (e.g. via Depth Anything V2 on Core ML /
 
 Depth integration is the highest-value near-term improvement for stroke quality and will drive the creation of the `IDirectionFieldComputer` interface.
 
+### External Depth Generation (Implemented)
+
+A working external depth map generator has been created:
+
+- **Tool**: `scripts/generate_depth.py` using **Depth Anything V2 Small** via ONNX Runtime
+- Can be run standalone or automatically via `tests/run_test.sh`
+- Successfully produces high-quality depth maps on real images
+- Fully external to the C++ core (as designed)
+
+This gives us a practical way to generate and test with real depth maps during development. On-device Core ML integration can be added later for the final app.
+
 ---
 
 ## 5. Phase 1 Implementation Plan (Following Phase 0)
