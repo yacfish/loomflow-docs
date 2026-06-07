@@ -37,19 +37,19 @@ Variable-width strokes that follow color, light, and form — perfect for digita
 
 ### Skies
 
-| Dramatic Sky | Soft Pastel Sky |
+| Dramatic Sky           | Soft Pastel Sky        |
 |------------------------|------------------------|
 | ![Dramatic Sky](docs/gallery/loomflow_ciel-v78_strokes_preview.jpg) | ![Soft Sky](docs/gallery/loomflow_ciel2-v106_strokes_preview.jpg) |
 
 ### Flowers
 
-| Vibrant Pink Flowers | White & Yellow Flowers |
+| Vibrant Pink Flowers   | White & Yellow Flowers |
 |------------------------|------------------------|
 | ![Pink Flowers](docs/gallery/loomflow_fleurs_1-v112_strokes_preview.jpg) | ![White & Yellow](docs/gallery/loomflow_fleurs_4-v111_strokes_preview.jpg) |
 
 ### Nature & Portrait
 
-| Forest Canopy | Portrait |
+| Forest Canopy          | Portrait               |
 |------------------------|------------------------|
 | ![Forest](docs/gallery/loomflow_foret_1-v113_strokes_preview.jpg) | ![Portrait](docs/gallery/loomflow_paris_zoom-v100_strokes_preview.jpg) |
 
