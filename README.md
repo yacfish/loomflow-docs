@@ -50,7 +50,7 @@ Variable-width strokes that follow color, light, and form — perfect for digita
 ### Nature & Portrait
 
 | Forest Canopy | Portrait |
-|---------------|----------|
+|---------------|---------------|
 | ![Forest](docs/gallery/loomflow_foret_1-v113_strokes_preview.jpg) | ![Portrait](docs/gallery/loomflow_paris_zoom-v100_strokes_preview.jpg) |
 
 ## 🛠 Tech Stack
