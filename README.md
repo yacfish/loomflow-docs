@@ -62,12 +62,20 @@ Variable-width strokes that follow color, light, and form — perfect for digita
 
 ## 📚 Documentation
 
-For more details, see:
+| Document                        | Purpose                                                                 | When to Read |
+|--------------------------------|--------------------------------------------------------------------------|--------------|
+| [Overview](docs/overview.md)   | High-level product vision, features, and tech stack                      | Start here for context |
+| [Roadmap](docs/roadmap.md)     | High-level development phases and progress                               | See overall timeline |
+| [Current Pipeline](docs/current-pipeline.md) | Exact state of the implementation today                         | Understand what exists now |
+| [Component Breakdown](docs/component-breakdown.md) | Detailed breakdown of current components                   | Deep dive into implementation |
+| [Development Plan](docs/development-plan.md) | Active plan for Phase 0 (depth) + Phase 1 (palette + regions)     | **Current development direction** |
+| [Long-term Architecture](docs/long-term-architecture.md) | Aspirational granular / stage-based vision (Argus, Metal, extensibility) | Long-term technical goals |
+| [Flat Area Texture](docs/flat-area-texture.md) | Techniques for improving flat/low-coherence regions                | Specific artistic quality topic |
+| [Monetization](docs/monetization.md) | Business model and tiering                                          | Product strategy |
 
-- [Current Pipeline](docs/current_pipeline.md) — Actual implementation flow
-- [Next Steps](docs/next-steps.md) — Target modular architecture (Phase 0 + Phase 1)
-- [Roadmap](docs/roadmap.md) — Development progress and plans
-- [Architecture Overview](docs/architecture.md) — High-level system design
+**Note:**  
+`development-plan.md` describes the **pragmatic near-term path** we're following now.  
+`long-term-architecture.md` describes the **ideal long-term modular vision** (especially valuable for Argus integration).
 
 ---
 
