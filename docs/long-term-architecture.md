@@ -1,6 +1,7 @@
-# Granular Pipeline Architecture in LoomFlow Core
+# Long-term Architecture Vision
 
-**Status:** Recommendation for long-term architecture  
+**Status:** Aspirational / Long-term technical vision  
+**Date:** June 2026  
 **Applies to:** LoomFlow Core + future Argus integration + iOS Metal backend
 
 ---
@@ -22,7 +23,11 @@ A lightweight coordinator (`LoomFlowEngine`) wires the active stages together ac
 
 This design keeps the **mathematical core** completely platform-agnostic while allowing hardware-specific optimizations only where they deliver real value.
 
----
+## Relationship to Other Documents
+
+This document describes the **ideal long-term modular architecture** (fine-grained stages, maximum reusability across platforms, deep Argus integration).
+
+The **active, pragmatic development path** is described in `development-plan.md`, which uses a lighter, targeted modular approach (`IDirectionFieldComputer` + `StreamlineEngine`) to deliver features faster in Phase 0 and Phase 1 while still moving toward the vision in this document over time.
 
 ## Why This Granular Approach Matters for the Project
 
@@ -82,8 +87,6 @@ Monolithic GPU ports tend to become unmaintainable over time. When you later wan
 
 With clear stage boundaries, algorithmic improvements stay in the common code, and only the affected Metal kernels need updating. This keeps the project sustainable even as a solo developer moving between machines (old Intel Mac → M1/M2 → future hardware).
 
----
-
 ## Recommended Implementation Pattern
 
 Use **abstract interfaces** for each stage + a lightweight coordinator that owns the active pipeline.
@@ -97,8 +100,6 @@ Key principles:
 
 This pattern scales cleanly from the current prototype phase all the way to a polished 1.0 product and beyond.
 
----
-
 ## Summary
 
 The granular stage-based approach is not just "nice to have" — it is the key architectural decision that makes LoomFlow viable as both:
@@ -110,4 +111,4 @@ It minimizes the amount of code that must be rewritten for Metal, maximizes test
 
 ---
 
-*Add this note to `docs/ARCHITECTURE.md` or create `docs/GRANULAR_PIPELINE_DESIGN.md`.*
+*This is the long-term architectural vision. The current implementation plan is in `development-plan.md`.*

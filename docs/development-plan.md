@@ -4,6 +4,12 @@
 **Date:** June 2026  
 **Author:** Yacine Sebti + Grok
 
+## Relationship to Long-term Architecture
+
+This document describes the **pragmatic near-term development plan** (Phase 0: depth integration + Phase 1: palette editing and regional processing) using targeted, lightweight modularity.
+
+The broader **long-term architectural vision** (fine-grained stage-based design for maximum cross-platform reuse and deep Argus integration) is documented in `long-term-architecture.md`.
+
 ---
 
 ## 1. Overview & Goals

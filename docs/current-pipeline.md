@@ -99,4 +99,5 @@ User
 
 ---
 
-*This file should be updated whenever significant changes are made to the generation pipeline.*
+*This file should be updated whenever significant changes are made to the generation pipeline.  
+See `development-plan.md` for the planned modularization path (`IDirectionFieldComputer`, `StreamlineEngine`, palette/region support, etc.).*

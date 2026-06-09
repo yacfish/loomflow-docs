@@ -1,4 +1,10 @@
-# LoomFlow Architecture
+# LoomFlow Overview
+
+**Status:** High-level product and feature overview  
+**Date:** June 2026  
+**Purpose:** Describes the intended user-facing capabilities and overall system design.
+
+---
 
 ## Overview
 Organic image to variable-width brush stroke converter.  
